@@ -1,0 +1,184 @@
+body {
+    background-color: rgb(42, 35, 51);
+}
+
+h1 {
+    margin-left: 300px;
+    color: rgb(241, 241, 241);
+    font-family: sans-serif;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#background-picture {
+    background-image: url("./cemeteries.jpg");
+    width: 950px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.black-frame {
+    border: hidden;
+    height: 28px;
+    position: absolute;
+}
+
+.kensal-location {
+    margin-top: 250px;
+    margin-left: 130px;
+    width: 123px;
+}
+
+:hover.kensal-location {
+    border: double 3px black;
+    background-color: rgb(75, 74, 74);
+    opacity: 0.5;
+}
+
+.brompton-location {
+    margin-top: 438px;
+    margin-left: 240px;
+    width: 101px;
+}
+
+:hover.brompton-location {
+    border: double 3px black;
+    background-color: rgb(75, 74, 74);
+    opacity: 0.5;
+}
+
+.highgate-location {
+    margin-top: 17px;
+    margin-left: 362px;
+    width: 92px;
+}
+
+:hover.highgate-location {
+    border: double 3px black;
+    background-color: rgb(75, 74, 74);
+    opacity: 0.5;
+}
+
+.abney-location{
+    margin-top: 96px;
+    margin-left: 523px;
+    width: 111px;
+}
+
+:hover.abney-location{
+    border: double 3px black;
+    background-color: rgb(75, 74, 74);
+    opacity: 0.5;
+}
+
+.tower-location {
+    margin-top: 270px;
+    margin-left: 650px;
+    width: 136px;
+    height: 32px;
+}
+
+:hover.tower-location{
+    border: double 3px black;
+    background-color: rgb(75, 74, 74);
+    opacity: 0.5;
+}
+
+.nunhead-location {
+    margin-top: 532px;
+    margin-left: 635px;
+    width: 83px;
+    height: 24px;
+}
+
+:hover.nunhead-location{
+    border: double 3px black;
+    background-color: rgb(75, 74, 74);
+    opacity: 0.5;
+}
+
+.west-location {
+    margin-top: 628px;
+    margin-left: 542px;
+    width: 129px;
+    height: 30px;
+}
+
+:hover.west-location{
+    border: double 3px black;
+    background-color: rgb(75, 74, 74);
+    opacity: 0.5;
+}
+
+.hide {
+    display: none;
+}
+
+.info {
+    width: 390px;
+    height: 240px;
+    border: solid 5px black;
+    border-radius: 30px;
+    background-color: rgb(42, 35, 51);
+    position: absolute;
+
+}
+.kensal {
+    margin-top: 280px;
+    margin-left: 150px;
+}
+
+.brompton {
+    margin-top: 190px;
+    margin-left: 237px;
+}
+
+.highgate {
+    margin-top: 46px;
+    margin-left: 365px;
+}
+
+.abney {
+    margin-top: 127px;
+    margin-left: 275px;
+}
+
+.tower {
+    margin-top: 306px;
+    margin-left: 425px;
+}
+
+.nunhead {
+    margin-top: 283px;
+    margin-left: 360px;
+}
+
+.west {
+    margin-top: 380px;
+    margin-left: 313px;
+}
+
+#info-box img {
+    width: 140px;
+    height: 100px;
+    float: left;
+    margin-top: 4px;
+    margin-left: 4px;
+    border-radius: 20px;
+}
+#info-box h3{
+    float: left;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: rgb(241, 241, 241);
+    font-family: sans-serif;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#info-box p{
+    color: white;
+    font-size: 17px;
+    margin-left: 15px;
+
+}
